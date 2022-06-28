@@ -1,0 +1,152 @@
+/* Основные стили */
+
+.header-nav {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.3rem;
+}
+
+.products {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.info {
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+.foto {
+    font-family: 'Montserrat','Arial', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.8rem;
+}
+
+.footer-nav {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+}
+
+
+.header {
+    background-color: #F2E1CE;
+    margin: 0px;
+    padding: 10px;
+    border: 4px inset #D9B8BA;
+    width: 1349px;
+}
+
+.header__logo {
+    display: inline-block;
+    margin: 1px;
+    padding: 1px;
+    width: 170px;
+}
+
+.header-nav-list__item {
+    list-style-type: none;
+}
+
+.main {
+    background-color: #E6D5C3;
+    margin: 0px;
+    border: 4px solid white;
+    width: 1349px;
+
+}
+
+.products.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+.products__peonies {
+    display: inline-block;
+    margin: 15px 15px 15px 15px;
+    padding: 10px 10px 10px 10px;
+    width: 300px;
+    height: 290px;
+}
+
+.products-list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.info.container {
+    max-width: 80%;
+    margin: 30px 20px;
+    padding: 0 10px;
+}
+
+.info__roses {
+    display: inline-block;
+    margin: 15px 15px 15px 15px;
+    padding: 10px 10px 10px 10px;
+    width: 350px;
+    height: 390px; 
+}
+
+.info__title {
+    text-align: center;
+}
+
+.info__description {
+    width: 300px;
+    height: 200px;
+    overflow: scroll;
+    background-color: #F0CBC7;
+    border: 3px solid rosybrown;
+
+}
+
+.foto.container {
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.foto__gallery {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.foto__flowers {
+    display: inline-block;
+    margin: 15px 6px;
+    padding: 10px 10px 10px 10px;
+    border: 5px solid white;
+    width: 400px;
+    height: 450px; 
+}
+
+
+.footer {
+    background-color: #D6C8B8;
+    margin: 0px;
+    padding: 10px;
+    border: 5px outset #E6AAC4;
+    width: 1349px;
+}
+
+.footer__logo {
+    display: inline-block;
+    margin: 1px;
+    padding: 1px;
+    width: 170px;
+}
+
+.footer-nav-list__item {
+    list-style-type: none;
+}
